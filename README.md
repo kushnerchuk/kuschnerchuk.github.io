@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Perfume_fantasys</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/9.6.1/firebase-app.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/9.6.1/firebase-analytics.js"></script>
     <style>
         body {
             font-family: 'Arial', sans-serif;
@@ -100,8 +102,7 @@
 <body>
     <div class="container">
         <div class="profile">
-            <!-- Використай реальне посилання на логотип -->
-            <img src="https://via.placeholder.com/150" alt="Perfume_fantasys logo">
+            <img src="/api/placeholder/150/150" alt="Perfume_fantasys logo">
             <h1>Perfume_fantasys</h1>
         </div>
 
@@ -110,9 +111,9 @@
         </div>
 
         <div class="social-links">
-            <a href="https://instagram.com" class="social-button instagram" target="_blank">Instagram</a>
-            <a href="https://tiktok.com" class="social-button tiktok" target="_blank">TikTok</a>
-            <a href="https://viber.com" class="social-button viber" target="_blank">Viber</a>
+            <a href="https://www.instagram.com/perfume_fantasys/profilecard/?igsh=MW4xZ2hzY2E4eG9yMw==" class="social-button instagram" onclick="trackClick('instagram')">Instagram</a>
+            <a href="https://www.tiktok.com/@perfume_elit4?_t=8rTDCkEWxZo&_r=1" class="social-button tiktok" onclick="trackClick('tiktok')">TikTok</a>
+            <a href="#" class="social-button viber" onclick="trackClick('viber')">Viber</a>
         </div>
     </div>
 
