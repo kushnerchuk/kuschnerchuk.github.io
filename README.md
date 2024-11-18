@@ -111,8 +111,8 @@
         </div>
 
         <div class="social-links">
-            <a href="https://www.instagram.com/perfume_fantasys/profilecard/?igsh=MW4xZ2hzY2E4eG9yMw==" class="social-button instagram" onclick="trackClick('instagram')">Instagram</a>
-            <a href="https://www.tiktok.com/@perfume_elit4?_t=8rTDCkEWxZo&_r=1" class="social-button tiktok" onclick="trackClick('tiktok')">TikTok</a>
+            <a href="#" class="social-button instagram" onclick="trackClick('instagram')">Instagram</a>
+            <a href="#" class="social-button tiktok" onclick="trackClick('tiktok')">TikTok</a>
             <a href="#" class="social-button viber" onclick="trackClick('viber')">Viber</a>
         </div>
     </div>
